@@ -9,9 +9,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "noEmit": true,
+    "baseUrl": ".",
+    "types": ["node", "@vue/runtime-core"],
     "paths": {
       "@/*": ["./src/*"]
     }

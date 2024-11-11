@@ -5,11 +5,12 @@ import HomePage from '@/ui/views/HomePage.vue'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: '/home'
+    name: 'Home',
+    component: HomePage
   },
   {
-    path: '/home',
-    name: 'Home',
+    path: '/:type',
+    name: 'Type',
     component: HomePage
   }
 ]

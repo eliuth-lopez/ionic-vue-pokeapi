@@ -1,5 +1,5 @@
 {
-  "name": "MiProyectoVue",
+  "name": "poke-app",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -23,7 +23,7 @@
     "ionicons": "^7.0.0",
     "vue": "^3.3.0",
     "vue-router": "^4.2.0",
-    "vuetify": "^3.7.3"
+    "vuetify": "^3.7.4"
   },
   "devDependencies": {
     "@capacitor/cli": "6.1.2",
